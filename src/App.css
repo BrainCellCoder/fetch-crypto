@@ -1,0 +1,94 @@
+body {
+  background-color: #121212;
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #f9d342;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  border: 1px solid #f9d342;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+  color: #a1a1a1;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #f9d342;
+}
+
+button {
+  background-color: #f9d342;
+  border: none;
+  color: #121212;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e5b732;
+}
+
+.crypto-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.crypto-table td,
+.crypto-table th {
+  border: 1px solid #333;
+  padding: 12px 15px;
+  text-align: center;
+  color: white;
+}
+
+.crypto-table tr {
+  transition: background-color 0.3s;
+}
+
+.crypto-table tr:hover {
+  background-color: #333;
+}
+
+.crypto-table img {
+  border-radius: 50%;
+}
+
+.crypto-table th {
+  background-color: #1e1e1e;
+  color: #f9d342;
+  text-transform: uppercase;
+}
+
+.crypto-table td {
+  background-color: #1e1e1e;
+}
+
+.crypto-table td img {
+  vertical-align: middle;
+}
